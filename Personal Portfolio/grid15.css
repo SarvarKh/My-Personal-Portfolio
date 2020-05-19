@@ -1,0 +1,178 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+
+/*Navigation Bar*/
+.container{
+    max-width: 98rem;
+}
+
+#navbar{
+    margin: 0 auto;
+    padding: 0 0rem;
+    position: fixed;
+    top: 0;
+    z-index: 1400;
+    width: 100%;
+    height: 4.4rem;
+    background-color: rgba(117, 3, 3, .9);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: large;
+}
+
+.navbar-links{
+    text-decoration: none;
+    color: white;
+    padding: 0 1.5rem;
+    transition: opacity 0.5s;
+}
+
+.navbar-links:hover{
+    opacity: .6;
+}
+
+/*General display size*/
+.main-display{
+    height: 69.2rem;
+}
+
+/*1st page*/
+.welcome-section{
+    background: linear-gradient(to top right, rgba(0,0,0,.8), rgba(0,0,0,0.9));
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 4.4rem;
+}
+
+.welcome-title{
+    padding-top: 25rem;
+}
+.welcome-title-description{
+    padding-top: 2rem;
+    font-style: italic;
+    color: rgba(200, 3, 3,1);
+}
+
+
+/*2nd page*/
+.projects{
+    background-color: rgba(30, 30, 100, .8);
+    height: 84.2rem;
+}
+
+.projects-title{
+    padding-top: 4rem;
+    color: white;
+    border-bottom: 1px solid white;
+    margin: auto;
+    width: max-content;
+    font-size: 3rem;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    margin: 5rem 35rem;
+}
+.img{
+    margin-bottom: 4rem;
+}
+.project-description{
+    display: flex;
+    background-color: rgba(0, 0, 20, .6);
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    color: white;
+    font-size: 1.5rem;
+    transition: text-shadow .5s;
+}
+
+.project-description:hover{
+    text-shadow: 2px 2px 5px white;
+}
+
+.item1, .item2, .item3, .item4{
+    transition: box-shadow .5s;
+}
+.item1:hover, .item2:hover, .item3:hover, .item4:hover{
+    box-shadow: 2px 2px 10px white;
+}
+
+#button{
+    background-color: rgba(0, 0, 20, .6);
+    color: white;
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
+    margin: auto;
+    width: max-content;
+    transition: opacity 0.5s;
+}
+
+#button:hover{
+    opacity: .7;
+}
+
+/*3rd page*/
+#page3{
+    background-color: rgba(0,0,0,.8);
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    max-height: 69.2rem;
+}
+
+.Contacts{
+    padding-top: 20rem;
+}
+
+#profile-link{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    margin-left: 40rem;
+    margin-right: 40rem;
+    color: white;
+}
+
+#profile-link > a{
+    text-decoration: none;
+    text-shadow: 2px 2px 1px black;
+    padding-bottom: 25rem;
+}
+
+#line{
+    color: rgba(117, 3, 3, .9);
+    line-height: 3rem;
+}
+
+.footer{
+    display: flex;
+    font-size: 2rem;
+    justify-content: space-between;
+    margin: 0 20rem;
+    margin-top: 2.5rem;
+}
+
+
+
+
+
